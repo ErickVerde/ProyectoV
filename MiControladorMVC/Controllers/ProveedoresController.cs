@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+
+namespace MiControladorMVC.Controllers
+{
+    public class ProveedoresController : Controller
+    {
+        // GET: Proveedores
+        public string misproveedores()
+        {
+            return @"<ul>
+                     <li>Alcampo</li>
+                     <li>Carrefour</li>
+                     <li>Mercadona</li>
+                     <li>Gadis</li>
+                     </ul>"; 
+        }
+    }
+}
